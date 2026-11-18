@@ -1,0 +1,15 @@
+{
+  "name": "awesome-dapr-workflow",
+  "private": true,
+  "description": "A curated list of Dapr Workflow resources.",
+  "repository": "diagrid-labs/awesome-dapr-workflow",
+  "license": "CC0-1.0",
+  "scripts": {
+    "lint": "awesome-lint",
+    "update-toc": "doctoc --github --maxlevel 3 readme.md"
+  },
+  "devDependencies": {
+    "awesome-lint": "^1.2.0",
+    "doctoc": "^2.2.1"
+  }
+}
