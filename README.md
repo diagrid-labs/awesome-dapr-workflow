@@ -1,8 +1,10 @@
 # Awesome Dapr Workflow [![Awesome list badge](https://awesome.re/badge.svg)](https://awesome.re)
 
+[<img src="dapr.png" align="right" width="200" alt="Dapr">](https://dapr.io/)
+
 > A curated list of Dapr Workflow libraries, samples and resources, from the Dapr project, Diagrid and the wider community. Maintained by Diagrid; scoped to Dapr Workflow rather than durable execution in general. Community links are not endorsed by, affiliated with, or maintained by the Dapr project. Pull requests welcome!
 
-Dapr Workflow is the durable execution engine built into [Dapr](https://dapr.io), a CNCF graduated project. Workflows are written as ordinary code, and a run that is interrupted by a crash, a restart or a deployment resumes from the last completed step instead of starting again.
+Dapr Workflow is the durable execution engine built into Dapr, a CNCF graduated project. Workflows are written as ordinary code, and a run that is interrupted by a crash, a restart or a deployment resumes from the last completed step instead of starting again.
 
 ## Contents
 
