@@ -14,7 +14,7 @@ Anything that helps someone build, run or operate **Dapr Workflow**:
 
 ## What does not belong here
 
-- **Other durable execution engines.** This list is scoped to Dapr Workflow, in the same way that a list about any one engine is scoped to that engine. Temporal, Restate, Inngest, DBOS and the rest are out of scope here. For a side-by-side view of the field, see [awesome-durable-executions](https://github.com/edmondop/awesome-durable-executions).
+- **Other workflow and durable execution engines.** This list is scoped to Dapr Workflow, in the same way that a list about any one engine is scoped to that engine. For a side-by-side view of the wider field, see [awesome-durable-executions](https://github.com/edmondop/awesome-durable-executions).
 - Dapr content unrelated to workflows or durable execution. The broader [awesome-dapr](https://github.com/mstrYoda/awesome-dapr) list covers Dapr generally.
 - Projects that are not publicly available.
 - Abandoned projects. Anything without activity in the last 12 months is likely to be removed.
