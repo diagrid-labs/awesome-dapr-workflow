@@ -1,0 +1,45 @@
+name: Link check
+
+on:
+  schedule:
+    # Mondays, 06:00 UTC.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          # 429 is accepted because GitHub rate-limits a runner that checks
+          # dozens of repo URLs at once; that is not link rot.
+          args: >-
+            --no-progress
+            --max-retries 3
+            --accept 200,206,429
+            README.md CONTRIBUTING.md
+          output: lychee-report.md
+          # Do not fail the run. A red scheduled job nobody watches is worse
+          # than an issue someone is assigned; the next step opens one.
+          fail: false
+          jobSummary: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open an issue if anything is broken
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6.0.0
+        with:
+          title: Link check found broken links
+          content-filepath: lychee-report.md
+          labels: link-rot
