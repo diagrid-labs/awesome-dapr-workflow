@@ -89,7 +89,6 @@ Workflows can be authored in any of these languages.
 - [Agentic durable execution](https://www.diagrid.io/blog/what-is-agentic-durable-execution) - What durability means once an agent, rather than a developer, decides the next step.
 - [Dapr actors for scalable workflows and AI agents](https://www.diagrid.io/blog/understanding-dapr-actors-for-scalable-workflows-and-ai-agents) - How the actor model underpins the workflow engine.
 - [Versioning .NET workflows in Aspire](https://www.diagrid.io/blog/how-to-version-net-workflows) - Changing a workflow without breaking runs already in flight.
-- [Improving the local Dapr Workflow experience](https://www.diagrid.io/blog/improving-the-local-dapr-workflow-experience-diagrid-dashboard) - Inspecting state and event history while developing locally.
 
 ## Videos
 
