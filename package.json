@@ -6,7 +6,7 @@
   "license": "CC0-1.0",
   "scripts": {
     "lint": "awesome-lint",
-    "update-toc": "doctoc --github --maxlevel 3 readme.md"
+    "update-toc": "doctoc --github --maxlevel 3 README.md"
   },
   "devDependencies": {
     "awesome-lint": "^1.2.0",

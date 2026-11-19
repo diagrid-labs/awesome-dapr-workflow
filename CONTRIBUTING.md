@@ -22,7 +22,7 @@ Anything that helps someone build, run or operate **Dapr Workflow**:
 
 ## Who maintains this
 
-This list is maintained by [Diagrid](https://www.diagrid.io) (previously Catalyst), which builds a commercial platform on Dapr, and it covers that platform alongside the open-source project. It is not a vendor-neutral comparison of durable execution engines, and it does not try to be. Dapr itself is a CNCF graduated project governed independently of Diagrid.
+This list is maintained by [Diagrid](https://www.diagrid.io), which builds a commercial platform on Dapr, and it covers that platform alongside the open-source project. It is not a vendor-neutral comparison of durable execution engines, and it does not try to be. Dapr itself is a CNCF graduated project governed independently of Diagrid.
 
 Within that scope, entries are judged on whether they help someone build with Dapr Workflow, regardless of who published them.
 

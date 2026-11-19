@@ -16,6 +16,7 @@ Dapr Workflow is the durable execution engine built into [Dapr](https://dapr.io)
 - [Tools](#tools)
 - [Articles](#articles)
 - [Videos](#videos)
+- [Webinars and workshops](#webinars-and-workshops)
 - [Communities](#communities)
 - [Related awesome lists](#related-awesome-lists)
 
@@ -85,10 +86,22 @@ Workflows can be authored in any of these languages.
 ## Articles
 
 - [An in-depth guide to Dapr Workflow patterns in .NET](https://www.diagrid.io/blog/in-depth-guide-to-dapr-workflow-patterns) - Walkthrough of each pattern with .NET code.
+- [Four durable agentic patterns](https://www.diagrid.io/blog/four-durable-agentic-patterns) - Patterns for making an agent loop survive a restart.
+- [Agentic durable execution](https://www.diagrid.io/blog/what-is-agentic-durable-execution) - What durability means once an agent, rather than a developer, decides the next step.
+- [Dapr actors for scalable workflows and AI agents](https://www.diagrid.io/blog/understanding-dapr-actors-for-scalable-workflows-and-ai-agents) - How the actor model underpins the workflow engine.
+- [Versioning .NET workflows in Aspire](https://www.diagrid.io/blog/how-to-version-net-workflows) - Changing a workflow without breaking runs already in flight.
+- [Improving the local Dapr Workflow experience](https://www.diagrid.io/blog/improving-the-local-dapr-workflow-experience-diagrid-dashboard) - Inspecting state and event history while developing locally.
 
 ## Videos
 
 - [Dapr YouTube channel](https://www.youtube.com/@DaprDev) - Talks, community calls and demos from the Dapr project.
+- [Failure is not an option](https://www.diagrid.io/videos/failure-is-not-an-option-durable-execution-dapr-2) - Talk on why distributed applications need durable execution.
+
+## Webinars and workshops
+
+- [Durable workflow patterns in C# with Dapr and Aspire](https://www.diagrid.io/webinars/in-flight-workflows-no-breaking-changes) - Hands-on workshop through the core patterns.
+- [Dapr Workflows for Spring Boot 4 developers](https://www.diagrid.io/webinars/dapr-workflows-spring-boot-4-developers-workshop) - Workshop aimed at Java developers.
+- [Durable SRE investigations with HolmesGPT](https://www.diagrid.io/webinars/durable-sre-investigations-putting-holmesgpt-into-production) - Taking an SRE agent's investigations to production as durable runs.
 
 ## Communities
 
