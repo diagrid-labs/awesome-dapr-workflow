@@ -81,6 +81,7 @@ Workflows can be authored in any of these languages.
 ## Tools
 
 - [Dapr Dev Dashboard](https://github.com/diagridio/dev-dashboard) - Free, open-source, local-only tool for inspecting apps and workflows during development, including workflow event history.
+- [Dapr Ops Dashboard](https://docs.diagrid.io/dapr-open-source/dapr-ops-dashboard/) - SaaS tool that automates operating Dapr on Kubernetes, covering installation, upgrades, mTLS certificate rotation and visibility across clusters.
 - [Dapr Skills](https://github.com/diagrid-labs/dapr-skills) - AI coding-assistant skills for scaffolding and reviewing Dapr applications, including workflows.
 - [Diagrid](https://www.diagrid.io/platform) - Durable execution platform for agents, workflows and MCP servers, built on Dapr, adding verifiable execution history and a cryptographic identity per workload with policy-based access.
 - [Diagrid AI plugin](https://github.com/diagridio/diagrid-ai) - Agent skills that drive the Diagrid MCP server, for building, running and debugging workflows from a coding assistant.
