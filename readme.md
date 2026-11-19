@@ -78,8 +78,8 @@ Workflows can be authored in any of these languages.
 
 ## Tools
 
+- [Dapr Dev Dashboard](https://github.com/diagridio/dev-dashboard) - Local dashboard for inspecting running workflows and their event history, alongside apps, sidecars, actors and pub/sub.
 - [Dapr Skills](https://github.com/diagrid-labs/dapr-skills) - AI coding-assistant skills for scaffolding and reviewing Dapr applications, including workflows.
-- [Workflow failure simulator](https://github.com/diagrid-labs/workflow-failure-simulator) - Injects failures at chosen points to test rerun and recovery behaviour.
 
 ## Articles
 
