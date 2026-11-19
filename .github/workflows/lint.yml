@@ -1,0 +1,33 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-lint:
+    name: awesome-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # awesome-lint resolves the repository from the git remote.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx awesome-lint README.md
+        env:
+          # awesome-lint reads a LOWERCASE github_token (see rules/github.js).
+          # Its repository rules call the GitHub API, and unauthenticated
+          # runners share IPs and hit the 60/hour limit.
+          github_token: ${{ secrets.GITHUB_TOKEN }}
