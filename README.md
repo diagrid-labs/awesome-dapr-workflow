@@ -38,7 +38,6 @@ Dapr Workflow is the durable execution engine built into [Dapr](https://dapr.io)
 
 - [Dapr University: Dapr Workflow](https://www.diagrid.io/dapr-university) - Free video course with hands-on exercises.
 - [Workflow tutorials](https://github.com/dapr/quickstarts/tree/master/tutorials/workflow) - Longer tutorials from the Dapr quickstarts repo.
-- [Dapr samples](https://github.com/dapr/samples) - Community-contributed samples, several using workflows.
 - [Advent of Workflow](https://github.com/diagrid-labs/advent-of-workflow) - Daily challenges for learning durable workflows.
 - [Aspire hands-on workshop](https://github.com/diagrid-labs/dapr-workflow-aspire-hands-on) - Build an Aspire .NET Dapr Workflow app step by step.
 
