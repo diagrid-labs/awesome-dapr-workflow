@@ -14,12 +14,17 @@ Anything that helps someone build, run or operate **Dapr Workflow**:
 
 ## What does not belong here
 
+- **Other durable execution engines.** This list is scoped to Dapr Workflow, in the same way that a list about any one engine is scoped to that engine. Temporal, Restate, Inngest, DBOS and the rest are out of scope here. For a side-by-side view of the field, see [awesome-durable-executions](https://github.com/edmondop/awesome-durable-executions).
 - Dapr content unrelated to workflows or durable execution. The broader [awesome-dapr](https://github.com/mstrYoda/awesome-dapr) list covers Dapr generally.
 - Projects that are not publicly available.
 - Abandoned projects. Anything without activity in the last 12 months is likely to be removed.
 - Marketing pages. Link to the docs, repo or article itself.
 
-This list is maintained by [Diagrid](https://www.diagrid.io), which builds a commercial platform on Dapr. **That does not make this a Diagrid list.** Dapr is a CNCF graduated project, and entries are judged on whether they help someone use Dapr Workflow, not on who published them. Submissions from competitors are welcome on the same terms.
+## Who maintains this
+
+This list is maintained by [Diagrid](https://www.diagrid.io) (previously Catalyst), which builds a commercial platform on Dapr, and it covers that platform alongside the open-source project. It is not a vendor-neutral comparison of durable execution engines, and it does not try to be. Dapr itself is a CNCF graduated project governed independently of Diagrid.
+
+Within that scope, entries are judged on whether they help someone build with Dapr Workflow, regardless of who published them.
 
 ## Entry format
 
